@@ -467,7 +467,7 @@
       ]
     },
     "oravitsa": {
-      "status": "demo",
+      "status": "prototyping",
       "summary": "A forest exploration and foraging prototype with wildlife, paths and discoveries.",
       "curated": true,
       "featured": false,
@@ -484,7 +484,8 @@
           "label": "Illustrated guide",
           "url": "https://diegoami.github.io/home/guides/oravitsa/"
         }
-      ]
+      ],
+      "section": ""
     },
     "pgn-postmortem": {
       "status": "tools",
@@ -633,11 +634,11 @@
       "downloadUrl": "https://github.com/diegoami/malpaco/releases/latest"
     },
     "cerea-vice": {
-      "status": "demo",
+      "status": "prototyping",
       "summary": "Learn real streets by driving a taxi, reading signs and using a paper atlas.",
       "repositoryUrl": "https://github.com/diegoami/cerea-vice",
       "language": "TypeScript",
-      "section": "games",
+      "section": "",
       "curated": true,
       "featured": false,
       "visible": true,
@@ -699,7 +700,7 @@
       "repositoryUrl": "https://github.com/diegoami/knowclick",
       "liveUrl": "https://diegoami.github.io/knowclick/",
       "language": "TypeScript",
-      "section": "devops",
+      "section": "learning",
       "visible": true,
       "curated": true,
       "featured": false,
@@ -715,7 +716,7 @@
       "repositoryUrl": "https://github.com/diegoami/LangClick2027",
       "liveUrl": "https://diegoami.github.io/LangClick2027/",
       "language": "TypeScript",
-      "section": "language-learning",
+      "section": "learning",
       "visible": true,
       "curated": true,
       "featured": false,
@@ -723,6 +724,110 @@
         "language-learning",
         "quiz",
         "svelte"
+      ]
+    },
+    "neo-angband-tracker": {
+      "status": "prototyping",
+      "summary": "A faithful but moddable port of Angband, playable almost anywhere, and the tracker for defects in the original C Borg, the game and the Neo engine.",
+      "repositoryUrl": "https://github.com/diegoami/neo-angband-tracker",
+      "language": "TypeScript",
+      "section": "angband",
+      "curated": true,
+      "featured": false,
+      "visible": true,
+      "liveUrl": "https://diegoami.github.io/neo-angband-tracker/",
+      "tags": [
+        "angband",
+        "roguelike"
+      ]
+    },
+    "better-borg-c": {
+      "status": "prototyping",
+      "summary": "A native C Angband/Borg consumer that adopts, integrates and tests verified bug fixes in a playable C derivative.",
+      "repositoryUrl": "https://github.com/diegoami/better-borg-c",
+      "language": "C",
+      "section": "angband",
+      "curated": true,
+      "featured": false,
+      "visible": true,
+      "tags": [
+        "angband",
+        "roguelike"
+      ]
+    },
+    "borg-rs": {
+      "status": "prototyping",
+      "summary": "A faithful Rust port of the Angband Borg, verified by a byte-identical keypress stream against the C Borg for the same seed.",
+      "repositoryUrl": "https://github.com/diegoami/borg-rs",
+      "language": "Rust",
+      "section": "angband",
+      "curated": true,
+      "featured": false,
+      "visible": true,
+      "tags": [
+        "angband",
+        "roguelike"
+      ]
+    },
+    "neo-angband-borg-mod-tracker": {
+      "status": "prototyping",
+      "summary": "The Borg for Neo Angband as a mod rather than in core: a repair fork that owns upstream port-defect trackers, reproductions and isolated proposals.",
+      "repositoryUrl": "https://github.com/diegoami/neo-angband-borg-mod-tracker",
+      "language": "TypeScript",
+      "section": "angband",
+      "curated": true,
+      "featured": false,
+      "visible": true,
+      "tags": [
+        "angband",
+        "roguelike"
+      ]
+    },
+    "mandos": {
+      "status": "prototyping",
+      "summary": "A bug-fix consumer for the Neo Angband Borg: it adopts verified port and engine corrections and translates applicable C fixes into its TypeScript derivative.",
+      "repositoryUrl": "https://github.com/diegoami/mandos",
+      "language": "TypeScript",
+      "section": "angband",
+      "curated": true,
+      "featured": false,
+      "visible": true,
+      "tags": [
+        "angband",
+        "roguelike"
+      ]
+    },
+    "totengine": {
+      "status": "prototyping",
+      "summary": "A from-scratch engine that recreates Civilization II: Test of Time: it reads the original data files, plays its scenarios, and is checked against the original game as an oracle.",
+      "repositoryUrl": "https://github.com/diegoami/totengine",
+      "language": "Rust",
+      "section": "",
+      "curated": true,
+      "featured": false,
+      "visible": true,
+      "downloadUrl": "https://github.com/diegoami/totengine/releases/latest",
+      "tags": [
+        "civ2",
+        "game-engine",
+        "prototype",
+        "rust"
+      ]
+    },
+    "onenil": {
+      "status": "prototyping",
+      "summary": "A faithful rebuild of One-Nil (Wizard, 1995/96), the football club manager, in Rust and checked against the original through a Python harness.",
+      "repositoryUrl": "https://github.com/diegoami/onenil",
+      "language": "Rust",
+      "section": "",
+      "curated": true,
+      "featured": false,
+      "visible": true,
+      "tags": [
+        "onenil",
+        "game-engine",
+        "prototype",
+        "rust"
       ]
     }
   }
