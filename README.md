@@ -3,8 +3,8 @@
 A static portfolio of my open-source projects, published with GitHub Pages.
 
 - **Public page** — [`index.html`](index.html): projects grouped into **Mature
-  projects**, **Libraries & tools**, **Work in progress**, **Demos**,
-  **Prototyping...**, **Documentation & learning** and **Unclassified**, with
+  projects**, **Libraries & tools**, **Work in progress**, **Prototyping...**,
+  **Demos**, **Documentation & learning** and **Unclassified**, with
   subject headings in the WIP and Prototyping groups and a collapsed **project
   index**. The other groups use one grid without subdivisions. Only explicitly
   selected projects are listed. Featured cards stay within their status group.
@@ -68,9 +68,9 @@ generated inventory. Find a repository by its exact, case-sensitive name:
 Valid statuses:
 
 - `mature` — established and ready to use; maintenance continues.
-- `wip` — work in progress.
-- `demo` — a prototype, experiment or demonstration.
-- `prototyping` — a game prototype or engine rebuild in progress.
+- `wip` — usable but not ready yet.
+- `prototyping` — we are not there yet.
+- `demo` — an abandoned proof of concept.
 - `tools` — a reusable library or practical utility.
 - `documentation` — study guides, exercises and reference material.
 - `unclassified` — status not yet chosen (the default).

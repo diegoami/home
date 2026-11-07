@@ -7,9 +7,9 @@ public summaries; see the [configuration guide](../README.md#configure-the-portf
 | Status | Meaning |
 |---|---|
 | `mature` | Mature projects, ready to use. |
-| `wip` | Work in progress. |
-| `demo` | Prototypes, experiments and demonstrations. |
-| `prototyping` | Game prototypes and engine rebuilds in progress. |
+| `wip` | Usable but not ready yet. |
+| `prototyping` | We are not there yet. |
+| `demo` | Abandoned proof of concepts. |
 | `tools` | Reusable libraries and practical utilities. |
 | `documentation` | Study guides, exercises and reference material. |
 | `unclassified` | No status assigned yet; the fallback for new repositories. |

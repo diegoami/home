@@ -1,4 +1,4 @@
-import { CATEGORIES, SECTION_TITLES, applyPortfolio } from "./portfolio.mjs?v=20261107-subjects";
+import { CATEGORIES, SECTION_TITLES, applyPortfolio } from "./portfolio.mjs?v=20261107-groups";
 
 (() => {
   "use strict";
