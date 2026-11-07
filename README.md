@@ -1,9 +1,9 @@
-# github_landing_page
+# home
 
 A static portfolio of my open-source projects, published with GitHub Pages.
 
 - **Public page** — [`index.html`](index.html): projects grouped into **Mature
-  projects**, **Libraries & tools**, **Work in progress**, **Prototyping...**,
+  projects**, **Work in progress**, **Libraries & tools**, **Prototyping...**,
   **Demos**, **Documentation & learning** and **Unclassified**, with
   subject headings in the WIP and Prototyping groups and a collapsed **project
   index**. The other groups use one grid without subdivisions. Only explicitly
@@ -60,7 +60,7 @@ generated inventory. Find a repository by its exact, case-sensitive name:
   "curated": true,
   "featured": true,
   "tags": ["card-game", "scopa", "browser-game"],
-  "liveUrl": "https://scopetta.netlify.app/",
+  "liveUrl": "https://diegoami.github.io/Scopetta/",
   "downloadUrl": "https://github.com/diegoami/Scopetta/releases/latest"
 }
 ```
@@ -69,9 +69,9 @@ Valid statuses:
 
 - `mature` — established and ready to use; maintenance continues.
 - `wip` — usable but not ready yet.
+- `tools` — a reusable library or practical utility.
 - `prototyping` — we are not there yet.
 - `demo` — an abandoned proof of concept.
-- `tools` — a reusable library or practical utility.
 - `documentation` — study guides, exercises and reference material.
 - `unclassified` — status not yet chosen (the default).
 
@@ -171,3 +171,19 @@ deployed site needs none.)
 
 Serve the repository root from GitHub Pages (Settings → Pages → branch `main`,
 `/root`). `.nojekyll` is present so files are served as-is.
+
+The portfolio is published at [diegoami.github.io/home](https://diegoami.github.io/home/).
+
+## Illustrated project destinations
+
+The first four illustrated destinations live under `guides/`: Cerea Vice and
+Oravitsa player guides, Goal2's screen design, and Imperial Conquest 2's
+versioned v0.6.2 manual. Cards use explicit action labels so a design or manual
+is not presented as a playable application. The other project links are unchanged.
+
+Edit `guides/<project>/guide.md` and the shared `guides/manifest.json`, then run
+`node tools/render-project-guides.mjs` (Node/npm required). It uses the pinned
+build-only `marked@18.0.14` renderer. Commit the generated HTML and the curated
+illustrations with their source references. Pages continues to serve static
+files with no server or runtime dependency. Check image loading, contents links
+and narrow-screen layout when updating a guide; keep design/version labels honest.

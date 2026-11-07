@@ -6,13 +6,19 @@
       "summary": "Baloncelli: a balloon-popping arcade game for the browser and Android.",
       "curated": true,
       "featured": false,
-      "visible": true,
-      "liveUrl": "https://baloncelli.netlify.app/",
+      "liveUrl": "https://diegoami.github.io/balloons-JS/",
       "downloadUrl": "https://github.com/diegoami/balloons-JS/releases/latest",
+      "visible": true,
       "tags": [
         "arcade",
         "browser-game",
         "android"
+      ],
+      "extraLinks": [
+        {
+          "label": "Shared scores on Netlify",
+          "url": "https://baloncelli.netlify.app/"
+        }
       ]
     },
     "balloons-js-releases": {
@@ -32,10 +38,10 @@
     "boar_life": {
       "status": "demo",
       "summary": "Explore a low-poly forest as a wild boar, encounter wildlife and raise a family. A Godot game prototype.",
-      "language": "GDScript",
       "curated": true,
       "featured": false,
       "visible": true,
+      "language": "GDScript",
       "tags": [
         "godot",
         "exploration",
@@ -46,13 +52,6 @@
     "briscola-JS": {
       "status": "unclassified",
       "summary": "A simple web application allowing to play Briscola online",
-      "curated": true,
-      "featured": false,
-      "visible": false
-    },
-    "championship-simulator-JS": {
-      "status": "unclassified",
-      "summary": "A simple web application simulating a round-robin championship",
       "curated": true,
       "featured": false,
       "visible": false
@@ -91,14 +90,14 @@
       "curated": true,
       "featured": true,
       "visible": true,
-      "liveUrl": "https://diegoami.github.io/ck_wiki/",
-      "liveLabel": "Read example chronicle",
       "tags": [
         "ck3",
         "save-parser",
         "wiki",
         "python"
-      ]
+      ],
+      "liveUrl": "https://diegoami.github.io/ck_wiki/",
+      "liveLabel": "Read example chronicle"
     },
     "ck3-scripts": {
       "status": "unclassified",
@@ -258,9 +257,9 @@
       "summary": "Play two-player Briscola in your browser, a web port of the original Discola game.",
       "curated": true,
       "featured": false,
-      "visible": true,
-      "liveUrl": "https://discola.netlify.app/",
+      "liveUrl": "https://diegoami.github.io/discola-web/",
       "downloadUrl": "https://github.com/diegoami/discola-web/releases/latest",
+      "visible": true,
       "tags": [
         "card-game",
         "briscola",
@@ -314,21 +313,14 @@
       "summary": "A geography map quiz: test how well you know places around the world.",
       "curated": true,
       "featured": true,
+      "liveUrl": "https://diegoami.github.io/Geoclick2027/",
+      "downloadUrl": "https://github.com/diegoami/Geoclick2027/releases/latest",
       "visible": true,
-      "liveUrl": "https://geoclick.netlify.app/",
-      "downloadUrl": "https://github.com/diegoami/geoclick-releases/releases/latest",
       "tags": [
         "geography",
         "quiz",
         "browser-game"
       ]
-    },
-    "github_landing_page": {
-      "status": "unclassified",
-      "summary": "The static GitHub Pages portfolio you are looking at: plain HTML, CSS and JS, no build step.",
-      "curated": true,
-      "featured": false,
-      "visible": false
     },
     "harness_imperial": {
       "status": "unclassified",
@@ -375,7 +367,9 @@
         "strategy-game",
         "reimplementation",
         "csharp"
-      ]
+      ],
+      "liveUrl": "https://diegoami.github.io/home/guides/imperial-conquest-2/",
+      "liveLabel": "Read manual · v0.6.2"
     },
     "imperial-conquest-2-research": {
       "status": "unclassified",
@@ -437,8 +431,8 @@
       "summary": "Collects technology news and groups coverage of the same story across different outlets.",
       "curated": true,
       "featured": true,
-      "visible": true,
       "liveUrl": "https://diegoami.github.io/newscollection2027/",
+      "visible": true,
       "tags": [
         "news",
         "scraping",
@@ -474,17 +468,24 @@
     },
     "oravitsa": {
       "status": "prototyping",
-      "summary": "A cosy 2D forest exploration prototype with foraging, wildlife and a painted world.",
-      "language": "GDScript",
-      "section": "",
+      "summary": "A forest exploration and foraging prototype with wildlife, paths and discoveries.",
       "curated": true,
       "featured": false,
+      "language": "GDScript",
       "visible": true,
       "tags": [
         "godot",
         "exploration",
         "prototype"
-      ]
+      ],
+      "liveUrl": "https://diegoami.github.io/oravitsa/",
+      "extraLinks": [
+        {
+          "label": "Illustrated guide",
+          "url": "https://diegoami.github.io/home/guides/oravitsa/"
+        }
+      ],
+      "section": ""
     },
     "pgn-postmortem": {
       "status": "tools",
@@ -524,9 +525,9 @@
       "summary": "Play Italian Scopa in your browser.",
       "curated": true,
       "featured": true,
-      "visible": true,
-      "liveUrl": "https://scopetta.netlify.app/",
+      "liveUrl": "https://diegoami.github.io/Scopetta/",
       "downloadUrl": "https://github.com/diegoami/Scopetta/releases/latest",
+      "visible": true,
       "tags": [
         "card-game",
         "scopa",
@@ -564,9 +565,9 @@
       "summary": "Play two-player Tressette in your browser with a choice of card decks.",
       "curated": true,
       "featured": false,
-      "visible": true,
-      "liveUrl": "https://tresettette.netlify.app/",
+      "liveUrl": "https://diegoami.github.io/Tressette/",
       "downloadUrl": "https://github.com/diegoami/Tressette/releases/latest",
+      "visible": true,
       "tags": [
         "card-game",
         "tressette",
@@ -612,7 +613,9 @@
         "football",
         "reimplementation",
         "python"
-      ]
+      ],
+      "liveUrl": "https://diegoami.github.io/home/guides/goal2/",
+      "liveLabel": "View illustrated design"
     },
     "malpaco": {
       "status": "wip",
@@ -626,11 +629,13 @@
       "tags": [
         "strategy-game",
         "typescript"
-      ]
+      ],
+      "liveUrl": "https://diegoami.github.io/malpaco/",
+      "downloadUrl": "https://github.com/diegoami/malpaco/releases/latest"
     },
     "cerea-vice": {
       "status": "prototyping",
-      "summary": "A driving and navigation prototype set in Cerea, Italy, with a second fictional harbor district.",
+      "summary": "Learn real streets by driving a taxi, reading signs and using a paper atlas.",
       "repositoryUrl": "https://github.com/diegoami/cerea-vice",
       "language": "TypeScript",
       "section": "",
@@ -641,23 +646,30 @@
         "driving",
         "navigation",
         "prototype"
+      ],
+      "liveUrl": "https://diegoami.github.io/cerea-vice/",
+      "extraLinks": [
+        {
+          "label": "Illustrated guide",
+          "url": "https://diegoami.github.io/home/guides/cerea-vice/"
+        }
       ]
     },
     "Quota tracker": {
+      "standalone": true,
       "status": "tools",
+      "visible": true,
+      "curated": true,
+      "featured": false,
       "summary": "Monitor AI-provider usage, remaining subscription quotas and reset times in one place.",
       "language": "Python",
       "section": "devtools",
-      "curated": true,
-      "featured": false,
-      "visible": true,
       "tags": [
         "developer-tools",
         "ai",
         "usage-tracking",
         "python"
-      ],
-      "standalone": true
+      ]
     },
     "voice-teacher": {
       "status": "demo",
@@ -675,38 +687,43 @@
         "python"
       ]
     },
-    "knowclick": {
-      "status": "wip",
-      "summary": "Technical knowledge by memory and practice: certifications such as CKAD, CKA and Azure, languages such as Rust and PowerShell, and libraries such as Neo4j and Kafka, in pluggable subject packs.",
-      "repositoryUrl": "https://github.com/diegoami/knowclick",
-      "language": "TypeScript",
-      "section": "learning",
+    "home": {
+      "status": "unclassified",
+      "summary": "The home page for my projects and playable web apps.",
       "curated": true,
       "featured": false,
-      "visible": true,
+      "visible": false
+    },
+    "knowclick": {
+      "status": "wip",
+      "summary": "Knowclick: technical knowledge by memory and practice, with pluggable subject packs.",
+      "repositoryUrl": "https://github.com/diegoami/knowclick",
       "liveUrl": "https://diegoami.github.io/knowclick/",
+      "language": "TypeScript",
+      "section": "learning",
+      "visible": true,
+      "curated": true,
+      "featured": false,
       "tags": [
+        "learning",
         "quiz",
-        "study-guide",
-        "practice-exercises",
-        "typescript"
+        "certification"
       ]
     },
     "LangClick2027": {
       "status": "wip",
-      "summary": "Language learning by memory: grammar and vocabulary in pluggable language packs, starting with Ukrainian.",
+      "summary": "Langclick: language-learning boards, lessons and quizzes, with browser-local progress.",
       "repositoryUrl": "https://github.com/diegoami/LangClick2027",
+      "liveUrl": "https://diegoami.github.io/LangClick2027/",
       "language": "TypeScript",
       "section": "learning",
+      "visible": true,
       "curated": true,
       "featured": false,
-      "visible": true,
-      "liveUrl": "https://diegoami.github.io/LangClick2027/",
       "tags": [
         "language-learning",
-        "vocabulary",
         "quiz",
-        "typescript"
+        "svelte"
       ]
     },
     "neo-angband-tracker": {
